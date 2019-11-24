@@ -1,41 +1,53 @@
-
-<!DOCTYPE HTML>
-
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, inital-scale=1">
-    <title>Karol Kurek</title>
-    <link rel="stylesheet" href="styles.css">
-   
-    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
-</head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Parallax</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
 
-<body>
- <header>
-     <div class="container">
-         <nav>
-             <h1 class="brand"><a href="#"><img src="logo1.png" height="35px"> Karol <span>Kurek</span></a></h1>
-             <ul>
-                 <li><a href="#">About Me</a></li>
-                 <li><a href="#">Web</a></li>
-                 <li><a href="#">Design</a></li>
-                 <li><a href="#">Contact</a></li>
-                 <li>|</li>
-                 <li><a href="./pl">Polish</a></li>
-             </ul>
-         </nav>
+    </head>
+    <body>
+        <div class="hero-image"></div>
+        <div class="parallax-el"></div>
+        <div class="rellax text" data-rellax-speed="1">
+            EXPL	&nbsp; RE
+            <h3><i class="arrow down"></i></h3></div>
+        <div class="rellax clouds"data-rellax-speed="-4"></div>
+        <div class="whitespace"></div>
+        <div class="rellax content"data-rellax-speed="8">   
+            <div class="row content-container">
+                <div class="col-md-4 text-container">
+                    <h4>Zakochaj się w Bieszczadach</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, repudiandae. Distinctio natus nostrum recusandae voluptatum deserunt quis ipsum, placeat eligendi, excepturi possimus minima sint voluptatem assumenda voluptates fugit dicta omnis blanditiis, ab optio nobis! Quasi rem, hic tempore doloremque nam omnis illum natus voluptatum quod. Esse beatae provident doloribus sunt ut quasi deserunt quod obcaecati perspiciatis exercitationem temporibus ex, dolor est distinctio quibusdam molestiae laudantium tempore omnis eum dolore, explicabo minus vero officia? Dignissimos provident similique maiores alias tenetur doloribus adipisci numquam accusamus, animi voluptatem vero, laborum neque consequatur aperiam illo assumenda cum, explicabo reiciendis recusandae quas ipsum.</p>
+                     <a href="#" class="btn explore-btn">Zobacz więcej</a>
+                </div>
+                <div class="col-md-8 img-container">
+                    <div class="row">
+                        <div class="col-md-3 img-small">
+                            <img src="img1.jpg" alt="gury">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="img2.jpg" alt="gury">
+                         </div>
+                         <div class="col-md-3 img-small">
+                            <img src="img3.jpg" alt="gury">
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
         
-     </div>
-     <div class="his">
-     <img class="pc" src="hero_image5.svg" alt="kontpuer">
-    <div class="hi"><h2>Hi there! My name is Karol!</h2>
-    <p>
-I am a Web developer and Graphic designer.<br> Welcome to my website! Check out some of my work.</p>
- <div class="contact">CONTACT ME</div></div>
 
- </div>
- </header>
- 
- <img class="start-back-wave" src="wave-back-start.svg" alt="Wave illustration" title="Wave">
-</body></html>
+
+
+
+        <script src="rellax.min.js"></script>
+        <script type="text/javascript">
+            var rellax = new Rellax('.rellax');
+        </script>
+    </body>
+</html>
