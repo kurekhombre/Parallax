@@ -103,9 +103,10 @@ p {
 }
 }
 @media (max-width: 780px){
-    .text {font-size: 4.1em;
-    top: 47%;
-    word-spacing: 15px;
+    .text {font-size: 3.95em;
+    top: 44.5%;
+    word-spacing: 10px;
+    left:-5%;
 }
 }
 @media only screen and (max-width: 620px){
